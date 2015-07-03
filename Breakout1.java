@@ -152,7 +152,7 @@ public class Breakout extends GraphicsProgram {
 	}
 	
  
-	
+	//Moving the paddle along its y location vertically in sync with the mouse
 	public void mouseMoved(MouseEvent e) {
 		double lastX = e.getX();
 		if (lastX < getWidth() - PADDLE_WIDTH / 2 && lastX > PADDLE_WIDTH / 2) {
